@@ -1,0 +1,61 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-color: cadetblue;
+    color: whitesmoke;
+    overflow: hidden;
+    text-align: center;
+
+
+}
+
+
+.container h1 {
+    font-family: fantasy;
+    font-size: 30px;
+    color: lightsalmon;
+    margin-top: 90px;
+}
+
+
+.container form {
+    margin: 18px;
+}
+
+.container input {
+    width: 500px;
+    height: 16px;
+    font-size: 16px;
+    margin: 3px;
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.container button {
+    width: 70px;
+    height: 40px;
+    background-color:darkorange;
+    margin: 5px;
+    font-size: medium;
+}
+
+
+.container p {
+    margin: 110px;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.error_message {
+    color:darkred;
+    font-size: 17px;
+    font-weight: bolder;
+}
