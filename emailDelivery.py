@@ -9,7 +9,7 @@ def send_email(email, salary, count, average_salary):
     email_to = email
 
     subject = "Average salary data"
-    message = "Hey there, <br> Your salary is $<strong>%s</strong>. <br> Based on <strong>%s</strong> numbers of suveys, average salary of Canadian population is $<strong>%s</strong> <br> <br> Thanks!"  % (salary, count, average_salary)
+    message = "Hey there, <br> Your monthly salary is $<strong>%s</strong>. <br> Based on <strong>%s</strong> numbers of suveys, average monthly salary of Canadian population is $<strong>%s</strong> <br> <br> Thanks!"  % (salary, count, average_salary)
 
     msg = MIMEText(message, 'html')
     msg['Subject'] = subject
